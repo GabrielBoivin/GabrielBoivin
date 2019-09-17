@@ -25,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JeMePresente" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -35,12 +35,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Comba\PhpstormProjects\reproductionSiteWeb\img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Comba\PhpstormProjects\reproductionSiteWeb\js" />
       <recent name="C:\Users\Comba\PhpstormProjects\reproductionSiteWeb" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Comba\PhpstormProjects\reproductionSiteWeb\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -66,6 +66,19 @@
       <option name="presentableId" value="Default" />
       <updated>1567791478074</updated>
       <workItem from="1567791479170" duration="4953000" />
+      <workItem from="1568140462183" duration="1804000" />
+      <workItem from="1568290836838" duration="6185000" />
+      <workItem from="1568308648434" duration="23000" />
+      <workItem from="1568395209182" duration="6200000" />
+      <workItem from="1568636193026" duration="114000" />
+      <workItem from="1568642840944" duration="3438000" />
+      <workItem from="1568651016964" duration="131000" />
+      <workItem from="1568651394689" duration="41000" />
+      <workItem from="1568720618651" duration="1648000" />
+      <workItem from="1568728149580" duration="476000" />
+      <workItem from="1568735747562" duration="2294000" />
+      <workItem from="1568738537881" duration="69000" />
+      <workItem from="1568739972688" duration="639000" />
     </task>
     <servers />
   </component>
