@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3eb97d9-d5b2-4be0-a2a6-c27c3eea6015" name="Default Changelist" comment="" />
+    <list default="true" id="b3eb97d9-d5b2-4be0-a2a6-c27c3eea6015" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../exerciceFacebook/img/152964589-welcome-home-new-cat-632x475.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation 1/Examen formatif 1/.idea/Examen formatif 1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation 1/Examen formatif 1/ExmenFormatif1/.idea/Template.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation 1/examenFormatif2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation 1/examenFormatif2/.idea/examenFormatif2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation 1/examenFormatif2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation 1/examenFormatif2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation 1/examenFormatif2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation 1/examenFormatif2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation 1/examenFormatif2/quesstion6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation 1/examenFormatif2/question2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation 1/examenFormatif2/question5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exerciceFacebook/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../exerciceFacebook/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exerciceFacebook/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../exerciceFacebook/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation 1/Examen formatif 1/ExmenFormatif1/js/question6.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation 1/Examen formatif 1/ExmenFormatif1/js/question6.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +38,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1QTPBdhVmaSnnu06OJctBrxBG68" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../exerciceFacebook" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -79,10 +100,22 @@
       <workItem from="1568735747562" duration="2294000" />
       <workItem from="1568738537881" duration="69000" />
       <workItem from="1568739972688" duration="639000" />
+      <workItem from="1568999499443" duration="176000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

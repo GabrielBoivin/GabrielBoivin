@@ -1,0 +1,36 @@
+.bg{
+    background-color: #abdde5;
+}
+
+a:hover{
+    color: #d39e00;
+}
+
+.textcolor{
+    color: #d39e00;
+}
+
+.textcolor2{
+    background-color: #28a745;
+}
+
+
+.image{
+    height: 2rem;
+    width: 2rem;
+ }
+
+.pr{
+    padding-right: 15px;
+}
+
+.bg2{
+    background-color: #d39e00;
+}
+.color{
+    color: #abdde5;
+}
+
+.bg5{
+    background-color: grey
+}

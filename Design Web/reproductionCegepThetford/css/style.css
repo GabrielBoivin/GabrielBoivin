@@ -1,0 +1,81 @@
+html,body { margin:0; height:100%;}
+
+.parallax {
+    /* L’image du Parallax */
+    background-image: url("https://p3.storage.canalblog.com/34/39/1305055/99585695_o.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ptop100{
+    padding-top: 100px;
+}
+.bgOpaque{
+    background-color: rgba(255,40,0,.575);
+}
+
+.mRight{
+    margin-right: 150px;
+}
+.p1{
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+.p2{
+    font-size: 50px;
+    line-height: 50px;
+    font-family: 'Khand',sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    padding-top: 15px;
+}.p3 {
+     font-size: 18px;
+     color: #2c2c2c;
+     line-height: 1.4em;
+     padding-top: 15px;
+ }
+
+.fa-thumbtack{
+    color: dodgerblue;
+}
+
+.bouton1,.bouton1:hover{
+    background-color: dodgerblue;
+    color: white;
+    font-family: 'Khand',sans-serif;
+    margin-bottom: 100px;
+}
+
+.bouton1:hover{
+    color: rgba(2,10,200,0.775);
+}
+
+.bgOpaque1{
+    background-color: rgba(255,255,255,.375);
+}
+
+.parallax1{
+    /* L’image du Parallax */
+    background-image: url("https://wallpaperplay.com/walls/full/6/4/6/221115.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 500px;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

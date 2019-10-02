@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg fixed-top">
+    <a class="navbar-brand" href="#">
+        <img src="img/sadeFace.png" class="img-fluid image" alt="Sad Face">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"   aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse mr-auto" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active"><a class="nav-link textcolor" href="index.html">Jeux Vidéos<span class="sr-only">(current)</span></a></li>
+            <li class="nav-item"><a class="nav-link textcolor" href="page2.html">Voie Lactée</a></li>
+            <li class="nav-item"><a class="nav-link textcolor" href="page3.html">Animaux</a></li>
+        </ul>
+    </div>
+    <a href="https://www.facebook.com/" target="_blank">
+        <i class="fab fa-facebook-square fa-2x pr textcolor"></i>
+    </a>
+    <a href="https://twitter.com/?lang=fr" target="_blank">
+        <i class="fab fa-twitter-square fa-2x pr textcolor"></i>
+    </a>
+    <a href="https://www.instagram.com" target="_blank">
+        <i class="fab fa-instagram fa-2x pr textcolor"></i>
+    </a>
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown button
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="index.html">Jeux Vidéos</a>
+            <a class="dropdown-item" href="page2.html">Voie Lactée</a>
+            <a class="dropdown-item" href="page3.html">Animaux Sauvages</a>
+        </div>
+    </div>
+</nav>
+
+<div id="myCarousel2" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel2" data-slide-to="1"></li>
+        <li data-target="#myCarousel2" data-slide-to="2"></li>
+    </ul>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/Voie%20Lactée%201.jpg" class="img-fluid" alt="Voie lactée 1"/>
+            <div class="carousel-caption">
+                <h3>Terre</h3>
+                <p>Voie Lactée #1</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/Voie%20Lactée%202.jpg" class="img-fluid" alt="Voie lactée 2"/>
+            <div class="carousel-caption">
+                <h3>Terre</h3>
+                <p>Voie Lactée #2</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/Voie%20Lactée%203.jpg" class="img-fluid" alt="Voie lactée 3"/>
+            <div class="carousel-caption">
+                <h3>Terre</h3>
+                <p>Voie Lactée #3</p>
+            </div>
+        </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#myCarousel2" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel2" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+</div>
+
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
