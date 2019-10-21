@@ -1,0 +1,241 @@
+html,body { margin:0; height:100%;}
+
+.parallax {
+    /* L’image du Parallax */
+    background-image: url("https://i.pinimg.com/originals/41/1f/24/411f242831627c2c139dd79672e0bf09.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1 {
+    /* L’image du Parallax */
+    background-image: url("https://www.1zoom.me/big2/87/292788-Sepik.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* L’image du Parallax */
+    background-image: url("http://www.fondsecran.eu/a/get_photo/635380/1920/1080");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* L’image du Parallax */
+    background-image: url("https://images5.alphacoders.com/516/thumb-1920-516663.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    /* L’image du Parallax */
+    background-image: url("https://images.wallpaperscraft.com/image/bloodborne_from_software_coat_arms_hunter_108102_1920x1080.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax5 {
+    /* L’image du Parallax */
+    background-image: url("https://static1.gamespot.com/uploads/original/1425/14251903/2559569-14389974954_2235e38e6f_o.png");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    background-color: #a71d2a;
+
+}
+
+.navbar a{
+    color: white;
+}
+
+.navbar a:hover{
+    color: orange;
+}
+
+.warcraft{
+    height: 2.5rem;
+    width: 4rem;
+}
+
+.fa-angle-double-down{
+    height: 2.5rem;
+    width: 4rem;
+    color: white;
+    font-size: 2rem;
+}
+
+header {
+    position: relative;
+    background-color: black;
+    height: 100%;
+    min-height: 75vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100vh;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.ptop1{
+    padding-top: 23.5rem;
+}
+
+h1, li, ul {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+p, label, input, button, option, select{
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+#graine h1, p {
+    font-weight: 500 !important ;
+}
+
+.bg{
+    background-color: #a71d2a;
+}
+
+.bg2{
+    background-color: #c82333;
+}
+
+.bg3{
+    background-color: #a71d2a;
+}
+
+.red{
+    color: #a71d2a;
+}
+
+.orange{
+    color: orange;
+}
+
+h1, p, ul, li{
+    color: white;
+}
+
+.black{
+    color: black;
+}
+
+.ptop2{
+    padding-top: 1.875rem;
+}
+
+.btn-primary{
+    background-color: #a71d2a;
+}
+
+.btn-primary:hover{
+    background-color: #a71d2a;
+}
+
+.fa-gamepad{
+    color: navajowhite;
+}
+
+.fa-user-friends{
+    color: navajowhite;
+}
+
+.fa-graduation-cap{
+    color: navajowhite;
+}
+
+.pbot1{
+    margin-bottom: 2.1875rem;
+}
+
+.bg4{
+    background-color: orange;
+}
+
+.bg5{
+    background-color: navajowhite;
+}
+
+.navbar i:hover{
+    color: orange;
+}
+
+.bold{
+    font-weight: 500 !important ;
+}
+
