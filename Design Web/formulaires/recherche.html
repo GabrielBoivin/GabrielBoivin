@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Recherche</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container py-4">
+<form>
+    <div class="form-row">
+       <div class="form-group col-md-8">
+           <img src="img/Corsair.jpg" class="img-fluid img1" alt="Corsair">
+       </div>
+        <div class="form-group col-md-4">
+            <h1>Corsair Enterprise</h1>
+            <h4>666 Rue Satan</h4>
+            <p>Québec, Canada, G6T1M7</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-10 text-center offset-1">
+            <h1>Recherche d'un forfait voyage</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-4">
+            <input type="text" class="form-control" placeholder="Nom">
+        </div>
+        <div class="form-group col-md-4">
+            <input type="text" class="form-control" placeholder="Prénom">
+        </div>
+        <div class="form-group col-md-4">
+            <input type="text" class="form-control" placeholder="Adresse">
+        </div>
+
+
+       <div class="form-group col-md-4">
+           <input type="text" class="form-control" placeholder="Ville">
+       </div>
+       <div class="form-group col-md-4">
+           <input type="text" class="form-control" placeholder="Code Postal">
+       </div>
+       <div class="form-group col-md-4">
+           <input type="tel" class="form-control" placeholder="Téléphone">
+       </div>
+   </div>
+</form>
+</div>
+
+<form>
+
+<div class="container">
+
+        <div class="form-row">
+            <div class="col-xl-12">
+                <div class="form-group">
+                    <label for="choixDeLaDestination">Veuillez choisir votre destination de rêve !</label>
+                         <select class="form-control" id="choixDeLaDestination">
+                            <option>France</option>
+                            <option>Belgique</option>
+                             <option>Suisse</option>
+                                <option>Italie</option>
+                            <option>Roumanie</option>
+                            <option>Grèce</option>
+                            <option>Islande</option>
+                <           <option>Danemark</option>
+                        </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="col-xl-6">
+                <div class="form-group">
+                    <label for="dateDeDepart">Quelle est votre date de départ ?</label>
+                    <input type="date" id="dateDeDepart" class="form-control" placeholder="Date de Départ">
+                </div>
+            </div>
+            <div class="col-xl-6">
+                <div class="form-group">
+                    <label for="dateDeRetour">Quelle est votre date de retour ?</label>
+                    <input type="date" id="dateDeRetour" class="form-control" placeholder="Date de retour">
+                </div>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="col-xl-6">
+                <label for="nombreAdultes">Combien d'adultes seront présents ?</label>
+                <select class="form-control" id="nombreAdultes">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>Plus de 6</option>
+                </select>
+            </div>
+            <div class="col-xl-6">
+                <label for="nombreEnfants">Combien d'enfants seront présents ?</label>
+                <select class="form-control" id="nombreEnfants">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>Plus de 6</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="col-xl-6">
+                <div class="form-check">
+                    <label class="form-check-label" for="exampleRadios1">Quel sera le moyen de transport utilisé pour se rendre à destination ?</label>
+                    <br>
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                        Avion
+                    </label>
+                    <br>
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>
+                        <label class="form-check-label" for="exampleRadios2">
+                        Train
+                    </label>
+                </div>
+            </div>
+            <div class="col-xl-6">
+                <div class="form-check">
+                    <label class="form-check-label" for="exampleRadios3">Quel sera la classe des sièges choisi ?</label>
+                    <br>
+                    <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios3" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios3">
+                        Première classe
+                    </label>
+                    <br>
+                    <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios4" value="option2" checked>
+                    <label class="form-check-label" for="exampleRadios4">
+                        Classe économique
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="col-xl-6">
+                <label>Quels sont les caractéristiques désirées pour l'hôtel ?</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            Tout compris
+                        </label>
+                    </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                        Sur la plage
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                    <label class="form-check-label" for="defaultCheck3">
+                        Près d'un golf
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                    <label class="form-check-label" for="defaultCheck4">
+                        Dans une ville à grande population
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
+                    <label class="form-check-label" for="defaultCheck5">
+                        Service aux chambres
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
+                    <label class="form-check-label" for="defaultCheck6">
+                        Bar dans l'hôtel
+                    </label>
+                </div>
+            </div>
+            <div class="col-xl-6">
+
+            </div>
+        </div>
+
+
+
+
+</div>
+</form>
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

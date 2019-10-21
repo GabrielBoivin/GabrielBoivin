@@ -71,11 +71,75 @@ html,body { margin:0; height:100%;}
     background-image: url("https://wallpaperplay.com/walls/full/6/4/6/221115.jpg");
 
     /* L’hauteur du Parallax */
-    height: 500px;
+    height: 600px;
 
     /* Création de l’effet */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.p4{
+    font-size: 50px;
+    line-height: 50px;
+    font-family: 'Khand',sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    padding-top: 15px;
+    color: white;
+}
+
+.p5{
+    font-size: 18px;
+    line-height: 1.4em;
+    padding-top: 15px;
+    color: white;
+}
+
+.fa-chevron-right{
+    color: #c82333;
+}
+
+.parallax2{
+    /* L’image du Parallax */
+    background-image: url("https://images.idgesg.net/images/article/2018/01/ces18_pho_016_origindesktops-100746738-orig.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 700px;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mLeft{
+    margin-left: 150px
+}
+
+.ptop150{
+    padding-top: 150px;
+}
+
+.bg1{
+    background-color: #28a745;
+}
+
+.bg2{
+    background-color: wheat;
+}
+
+.bg3{
+    background-color: firebrick;
+}
+
+.ptop{
+    padding-top: 50px;
+}
+
+.pbot50{
+    padding-bottom: 50px;
 }

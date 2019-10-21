@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/wowicon.jpg" id="favicon"/>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,500|Roboto:300,500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top">
+
+    <a class="navbar-brand" href="#">
+        <img src="img/warcraft.png" class="img-fluid warcraft" alt="Banana" title="Accueil">
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav mr-auto bold">
+            <li class="nav-item active"><a class="nav-link textcolor" href="index.html">Accueil<span class="sr-only">(current)</span></a></li>
+            <li class="nav-item"><a class="nav-link textcolor" href="page2.html">World Of Warcraft</a></li>
+            <li class="nav-item"><a class="nav-link textcolor" href="page3.html">Bloodborne</a></li>
+        </ul>
+    </div>
+
+    <a href="https://www.facebook.com/" target="_blank">
+        <i class="fab fa-facebook-square fa-2x px-2"></i>
+    </a>
+    <a href="https://twitter.com/?lang=fr" target="_blank">
+        <i class="fab fa-twitter-square fa-2x px-2"></i>
+    </a>
+    <a href="https://www.instagram.com" target="_blank">
+        <i class="fab fa-instagram fa-2x px-2"></i>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-angle-double-down"></i>
+    </button>
+
+</nav>
+
+<header class="container-fluid ptop1" id="banniere2">
+    <div class="row">
+        <div class="col-xl-12">
+            <div class="overlay"></div>
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                <source src="img/sylvanasStare.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</header>
+
+<section class="card" id="cardJumbotronButtonModalCarousel">
+    <div class="card-body bg">
+        <div class="jumbotron jumbotron-fluid text-center bg4">
+            <div class="container-fluid">
+                <h1 class="display-4 black">World Of Warcraft</h1>
+                <p class="lead black">Jeu en ligne massivement multijoueur (MMORPG) développé par Blizzard Entertainment, sorti en 2004 sur PC</p>
+                <div class="row">
+                    <div class="col-xl-6 ptop2">
+                <a href="https://worldofwarcraft.com/en-us/" target="_blank">
+                <button type="submit" class="btn btn-primary">Pour en apprendre davantage, cliquez ici</button>
+                </a>
+                    </div>
+                    <div class="col-xl-6 ptop2">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                            Pour voir des images du jeu, cliquez ici
+                        </button>
+                        <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                            <ul class="carousel-indicators">
+                                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                                                <li data-target="#myCarousel" data-slide-to="3"></li>
+                                                <li data-target="#myCarousel" data-slide-to="4"></li>
+                                                <li data-target="#myCarousel" data-slide-to="5"></li>
+                                            </ul>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img class="img-fluid" src="img/blackHand.jpg" alt="Black Hand">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="img-fluid" src="img/deathwing.jpg" alt="Deathwing">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="img-fluid" src="img/guldan.jpg" alt="Guldan">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="img-fluid" src="img/illidan.jpg" alt="Illidan">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="img-fluid" src="img/lickKing.jpg" alt="Lich King">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="img-fluid" src="img/sylvanas.jpg" alt="Sylvanas">
+                                                </div>
+                                            </div>
+                                            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                                <span class="carousel-control-prev-icon"></span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                                                <span class="carousel-control-next-icon"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                            Fermer
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid parallax1 h-100" id="parallax1">
+    <div class="row align-items-center h-100">
+        <div id="graine" class="col-xl-6 ml-auto">
+            <h1 class="black text-center py-3">Voici les différents buts du jeu</h1>
+            <ul id="bold" class="fa-ul">
+                <li><span class="fa-li"><i class="fas fa-chevron-right red"></i></span>Compléter des quêtes pour monter de niveau</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right red"></i></span>Tuer des ennemis</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right red"></i></span>Effectuer des donjons et des raids pour obtenir de l'équipement de meilleur qualité</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right red"></i></span>Explorer le vaste monde d'Azeroth</li>
+                <li><span class="fa-li"><i class="fas fa-chevron-right red"></i></span>Tuer d'autres joueurs de la faction inverse grâce au joueurs contre joueurs</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid parallax2 h-100" id="parallax2">
+    <div class="row align-items-center h-100 ml-auto">
+        <div id="graine" class="col-xl-12 ">
+            <h1 class="orange">Le jeu est-il populaire ?</h1>
+            <p class="orange">Oui, le nombre d'abonnés au jeu se situe delà des cinq millions de joueurs en 2019.Cependant, ce n'est rien comparé à l'année 2009. Le nombre de joueurs à cette époque dépassait les 10 millions, c'est donc le double d'aujourd'hui</p>
+        </div>
+    </div>
+</section>
+
+<footer class="container-fluid" id="copyright">
+    <div class="row align-items-center text-center">
+        <div class="col-xl-12 ptop2">
+            <h1 class="black">Gabriel Boivin ©2019</h1>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Projet HTML</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/wowicon.jpg" id="favicon"/>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,500|Roboto:300,500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top">
+
+    <a class="navbar-brand" href="#">
+        <img src="img/warcraft.png" class="img-fluid warcraft" alt="Banana" title="Accueil">
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav mr-auto bold">
+            <li class="nav-item active"><a class="nav-link textcolor" href="index.html">Accueil<span class="sr-only">(current)</span></a></li>
+            <li class="nav-item"><a class="nav-link textcolor" href="page2.html">World Of Warcraft</a></li>
+            <li class="nav-item"><a class="nav-link textcolor" href="page3.html">Bloodborne</a></li>
+        </ul>
+    </div>
+
+    <a href="https://www.facebook.com/" target="_blank">
+        <i class="fab fa-facebook-square fa-2x px-2"></i>
+    </a>
+    <a href="https://twitter.com/?lang=fr" target="_blank">
+        <i class="fab fa-twitter-square fa-2x px-2"></i>
+    </a>
+    <a href="https://www.instagram.com" target="_blank">
+        <i class="fab fa-instagram fa-2x px-2"></i>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-angle-double-down"></i>
+    </button>
+
+</nav>
+
+<header class="container-fluid ptop1" id="banniere">
+    <div class="row">
+        <div class="col-xl-12">
+            <div class="overlay"></div>
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                <source src="img/anduinStare.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</header>
+
+<section class="container-fluid parallax h-100" id="parallax">
+    <div class="row align-items-center text-center h-100">
+        <div id="graine" class="col-xl-12 text-center">
+                <h1 class="black">Bienvenue!</h1>
+            <p class="black">Ce site web a pour but de vous faire part d'une de mes passions, les jeux vidéos, et de vous présenter <br> mes deux jeux favoris : World Of Warcraft et Bloodborne</p>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid" id="fontawesome">
+    <div class="row">
+        <div class="col-xl-4 bg text-center">
+            <i class="fas fa-gamepad fa-7x ptop2"></i>
+            <h1 class="orange py-1">Pourquoi les jeux vidéos ?</h1>
+            <p class="pbot1">Car ils permettent un moment de répit dans lequel n'importe qui peut échapper à la réalité, pendant un cours instant</p>
+        </div>
+        <div class="col-xl-4 bg2 text-center">
+            <i class="fas fa-user-friends fa-7x ptop2"></i>
+            <h1 class="orange py-1">Y'a t-il d'autres bienfaits ?</h1>
+            <p class="pbot1">Bien sûr ! Ils m'ont permis de me faire de nouveaux amis (que je rencontre régulièrement dans la vraie vie) et ils m'ont permis de développer mon sens des communications</p>
+        </div>
+        <div class="col-xl-4 bg3 text-center">
+            <i class="fas fa-graduation-cap fa-7x ptop2"></i>
+            <h1 class="orange py-1">Mais encore ?</h1>
+            <p class="pbot1">C'est aussi grâce aux jeux vidéos que j'ai développer mon habileté à parler anglais ! C'est un atout majeur qui me sera utile dans plusieurs domaines</p>
+        </div>
+    </div>
+</section>
+
+
+
+<form>
+    <section class="container-fluid" id="formulaire">
+        <div class="row align-items-center text-center">
+            <div class="col-xl-12">
+                    <h1 class="black py-5">Envoyez-moi vos titres de jeux vidéos préférés !</h1>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-xl-6">
+                <label for="inputEmail4">E-mail</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Veuillez entrer votre adresse de courriel">
+            </div>
+            <div class="form-group col-xl-6">
+                <label for="inputTel4">Téléphone</label>
+                <input type="tel" class="form-control" id="inputTel4" placeholder="Veuillez entrer votre numéro de téléphone">
+            </div>
+        </div>
+        <div class="form-row">
+        <div class="form-group col-xl-12">
+            <label for="inputAddress">Prénom</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Veuillez entrer votre prénom">
+        </div>
+        </div>
+        <div class="form-row">
+        <div class="form-group col-xl-12">
+            <label for="inputAddress2">Nom</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Veuillez entrer votre nom">
+        </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-xl-6">
+                <label for="inputCity">Ville</label>
+                <input type="text" class="form-control" id="inputCity" placeholder="Veuillez entrer le nom de votre ville">
+            </div>
+            <div class="form-group col-xl-4">
+                <label for="inputState">Province/Territoire au Canada</label>
+                <select id="inputState" class="form-control">
+                    <option selected>Québec</option>
+                    <option>Ontario</option>
+                    <option>Saskatchewan</option>
+                    <option>Manitoba</option>
+                    <option>Alberta</option>
+                    <option>Colombie-Britannique</option>
+                    <option>Nouveau-Brunswick</option>
+                    <option>Nouvelle-Écosse</option>
+                    <option>Terre-Neuve-et-Labrador</option>
+                    <option>Territoires du Nord-Ouest</option>
+                    <option>Nunavut</option>
+                    <option>Yukon</option>
+                    <option>l'Île-du-Prince-Édouard</option>
+                </select>
+            </div>
+            <div class="form-group col-xl-2">
+                <label for="inputZip">Code Postal</label>
+                <input type="text" class="form-control" id="inputZip" placeholder="Veuillez entrer votre code postal">
+            </div>
+        </div>
+        <div class="form-row">
+        <div class="form-group col-xl-12">
+            <label for="inputJeu1">Votre jeu vidéo #1</label>
+            <input type="text" class="form-control" id="inputJeu1" placeholder="Veuillez entrer le nom de votre jeu préféré #1">
+        </div>
+        </div>
+        <div class="form-row">
+        <div class="form-group col-xl-12">
+            <label for="inputJeu2">Votre jeu vidéo #2</label>
+            <input type="text" class="form-control" id="inputJeu2" placeholder="Veuillez entrer le nom de votre jeu préféré #2">
+        </div>
+        </div>
+        <div class="form-row">
+        <div class="form-group col-xl-12">
+            <label for="inputJeu3">Votre jeu vidéo #3</label>
+            <input type="text" class="form-control" id="inputJeu3" placeholder="Veuillez entrer le nom de votre jeu préféré #3">
+        </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row text-center py-5">
+                <div class="col-xl-12">
+        <button type="submit" class="btn btn-primary w-25">Envoyer le formulaire</button>
+                </div>
+            </div>
+        </div>
+        </section>
+</form>
+
+<footer class="container-fluid" id="copyright">
+    <div class="row align-items-center text-center">
+        <div class="col-xl-12">
+            <h1 class="black">Gabriel Boivin ©2019</h1>
+        </div>
+    </div>
+</footer>
+
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
+
