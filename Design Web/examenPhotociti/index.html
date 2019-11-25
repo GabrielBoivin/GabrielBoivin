@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Photociti</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Alata|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.4.1.min.js" defer></script>
+    <script src="js/bootstrap.js" defer></script>
+    <script src="js/script1.js" defer></script>
+</head>
+<body>
+
+<div class="container-fluid text-center">
+    <div class="row espaceTop">
+        <div class="col-4">
+            <!-- Espace vide (comme un offset) -->
+        </div>
+        <div class="col-4">
+            <div class="form-group">
+                <label for="input"><i class="far fa-keyboard fa-2x keyboard white"></i><b class="titre white">Veuillez entrer votre mot</b></label>
+                <input type="text" class="form-control text-center" id="input" placeholder="Entrez un mot entre 3 et 12 caractères">
+                <small id="small" class="form-text text-muted white"><b id="small1" class="white">Utilisez * pour les caractères spéciaux.</b></small>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <button type="button" class="btn btn-dark paddingBouton" id="boutonGo">Go</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------------------------- Formulaire,bouton et fontawesome plus haut ----------------------------------->
+
+<div class="container-fluid">
+    <div class="row text-center espaceBackgrounds">
+        <div class="col-12">
+            <h4 class="espacetexte white">Veuillez choisir une couleur de fond pour vos photos</h4>
+            <img src="background/blanc.jpg" class="img-fluid backgrounds" id="blanc" alt=""/>
+            <img src="background/bleu.jpg" class="img-fluid backgrounds" id="bleu" alt=""/>
+            <img src="background/bleuFonce.jpg" class="img-fluid backgrounds" id="bleuFonce" alt=""/>
+            <img src="background/gris.jpg" class="img-fluid backgrounds" id="gris" alt=""/>
+            <img src="background/noir.jpg" class="img-fluid backgrounds" id="noir" alt=""/>
+            <img src="background/rose.jpg" class="img-fluid backgrounds" id="rose" alt=""/>
+            <img src="background/rouge.jpg" class="img-fluid backgrounds" id="rouge" alt=""/>
+            <img src="img/print.png" class="img-fluid backgrounds" id="imprimante" alt=""   onclick="printElem('imprimer')"/>
+        </div>
+    </div>
+</div>
+
+<!---------------------------------- Images de background plus haut ----------------------------------->
+
+<div class="container-fluid" id="imprimer">
+    <div class="row bg paddingRowImages justify-content-center">
+            <div class="col" id="image0">
+                <img src="Letters/J/J1.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col" id="image1">
+                <img src="Letters/A/A1.jpg" class="img-fluid" alt="">
+        </div>
+            <div class="col" id="image2">
+                <img src="Letters/V/V1.jpg" class="img-fluid" alt="">
+        </div>
+            <div class="col" id="image3">
+                <img src="Letters/A/A1.jpg" class="img-fluid" alt="">
+        </div>
+            <div class="col" id="image4">
+                <img src="Letters/S/S1.jpg" class="img-fluid" alt="">
+        </div>
+            <div class="col" id="image5">
+                <img src="Letters/C/C1.jpg" class="img-fluid" alt="">
+        </div>
+            <div class="col" id="image6">
+                <img src="Letters/R/R1.jpg" class="img-fluid" alt="">
+        </div>
+            <div class="col" id="image7">
+                <img src="Letters/I/I1.jpg" class="img-fluid" alt="">
+        </div>
+            <div class="col" id="image8">
+                <img src="Letters/P/P1.jpg" class="img-fluid" alt="">
+        </div>
+            <div class="col" id="image9">
+                <img src="Letters/T/T1.jpg" class="img-fluid" alt="">
+        </div>
+            <div class="col" id="image10">
+                <img src="Letters/CS/CS1.jpg" class="img-fluid" alt="">
+        </div>
+            <div class="col" id="image11">
+                <img src="Letters/CS/CS1.jpg" class="img-fluid" alt="">
+        </div>
+        </div>
+</div>
+
+<!----------------------------------  Images dans la row plus haut ----------------------------------------------->
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+.boxGrosse{
+    overflow: hidden;
+
+}
+
+.box1{
+    background-image: url("https://wallpaperplay.com/walls/full/7/f/5/365972.jpg");
+    height: 25.125rem;
+    background-position: center;
+
+}
+
+.box2{
+    background-image: url("https://s1.1zoom.me/b5043/425/China_Jiuzhaigou_park_Parks_Lake_Mountains_Autumn_530368_1920x1080.jpg");
+    height: 25.125rem;
+    background-position: center;
+}
+
+.box3{
+    background-image: url("https://i.redd.it/9dmo1r9a9ls01.jpg");
+    height: 25.125rem;
+    background-position: center;
+}
+
+button{
+    width: 4.6875rem;
+}
+
+h1{
+    color: orangered;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1.25rem;
+}
+
+p{
+    color: orangered;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 0.3125rem;
+}
+
+.box1:hover, .box2:hover, .box3:hover{
+    transform: scale(1.2);
+}
+
+.ptop1{
+    padding-top: 120px;
+}
+
+p.info {
+    height: 300px;
+}

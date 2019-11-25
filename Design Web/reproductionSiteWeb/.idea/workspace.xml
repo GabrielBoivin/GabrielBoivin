@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3eb97d9-d5b2-4be0-a2a6-c27c3eea6015" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery-3.4.1.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,8 +90,17 @@
       <workItem from="1568738537881" duration="69000" />
       <workItem from="1568739972688" duration="639000" />
       <workItem from="1568999499443" duration="176000" />
-      <workItem from="1571629146292" duration="327000" />
+      <workItem from="1571629146292" duration="483000" />
+      <workItem from="1571663386420" duration="754000" />
     </task>
+    <task id="LOCAL-00001" summary="modification 2e projet html à vie">
+      <created>1571629565495</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571629565495</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,5 +118,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modification 2e projet html à vie" />
+    <option name="LAST_COMMIT_MESSAGE" value="modification 2e projet html à vie" />
   </component>
 </project>

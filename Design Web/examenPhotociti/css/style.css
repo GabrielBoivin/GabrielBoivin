@@ -1,0 +1,73 @@
+.titre{
+    font-size: 1.3rem;
+    font-family: Roboto;
+}
+
+
+.keyboard{
+    padding-right: 0.5rem;
+}
+
+input, small, p, button, h4, h5, h6 {
+    font-family: Alata;
+}
+
+h1, h2, h3 {
+    font-family: Roboto;
+}
+
+.bg{
+    background-image: url(".././background/noir.jpg");
+    -webkit-print-color-adjust:exact;
+}
+
+.espaceTop{
+    padding-top: 30px;
+}
+
+.paddingBouton{
+    margin-top: 45px;
+    width: 60px;
+}
+
+.paddingRowImages{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 30px;
+}
+
+.red{
+    color: #a71d2a;
+}
+
+.backgrounds{
+    width: 100px;
+    height: 100px;
+}
+
+.espaceBackgrounds{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+
+
+#noir,#blanc,#gris,#bleu,#bleuFonce,#rouge,#rose,#imprimante {
+    transition: transform .1s;
+    border-radius: 18px;
+}
+#noir:hover, #blanc:hover, #gris:hover, #bleu:hover, #bleuFonce:hover, #rouge:hover, #rose:hover, #imprimante:hover {
+    transform: scale(1.10);
+}
+
+.espacetexte{
+    padding-bottom: 15px;
+}
+
+html, body{
+    background-image: url("https://www.scitecheuropa.eu/wp-content/uploads/2019/07/ClaudioVentrella.jpg");
+}
+
+.white{
+    color:white;
+}
