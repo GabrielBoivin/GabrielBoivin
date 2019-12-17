@@ -1,0 +1,263 @@
+.imageNavBar{
+    width: 40px;
+    height: 40px;
+}
+
+header {
+    position: relative;
+    background-color: black;
+    height: 100%;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.marginTop20px{
+    margin-top: 20px;
+}
+
+.marginTop40px{
+    margin-top: 40px;
+}
+
+h1, h2, h3, input{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4, h5, h6, p, li, label{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.75em;
+}
+
+.navbarColor{
+    background-color : floralwhite;
+}
+
+html,body { margin:0; height:100%;}
+
+.parallax {
+    /* L’image du Parallax */
+    background-image: url("https://static.carthrottle.com/workspace/uploads/comments/308f7c8dd5b7602e0315e8489b174ebf.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+hr{
+    margin-bottom:30px;
+    margin-top:30px;
+    max-width: 90%;
+    border-width: 3px;
+    border-color: darkred;
+}
+
+.white{
+    color: white;
+}
+
+.red{
+    color: darkred;
+}
+
+.paddingLeft10px{
+    padding-left: 10px;
+}
+
+a{
+    color: darkred;
+}
+
+a:hover{
+    color: red;
+}
+
+#colCarouselVoitures{
+    margin: auto;
+}
+
+.parallax2{
+    /* L’image du Parallax */
+    background-image: url("https://i.imgur.com/x6nh1aF.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax {
+    /* L’image du Parallax */
+    background-image: url("https://static.carthrottle.com/workspace/uploads/comments/308f7c8dd5b7602e0315e8489b174ebf.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bold{
+    font-weight: 500 !important ;
+}
+
+.black{
+    color: black;
+}
+
+.redFlash{
+    color: red;
+}
+
+.center{
+    margin: auto;
+}
+
+.marginLeftt20px{
+    margin-left: 20px;
+}
+
+.parallax3{
+    /* L’image du Parallax */
+    background-image: url("https://i.pinimg.com/originals/c5/7e/54/c57e54cccc5816d0517ba3d28679f3cd.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg1{
+    background-color: darkred;
+}
+
+.bg2{
+    background-color: #ab2522;
+}
+
+.bg3{
+    background-color: rgba(181,5,14,0.3);
+}
+
+.bg4{
+    background-color: rgba(181,5,14,0.56);
+}
+
+#TitleFormulaire{
+    font-weight: 500 !important;
+}
+
+.parallax4{
+    /* L’image du Parallax */
+    background-image: url("https://revmatch.net/wp-content/uploads/2015/09/JCCS-2015-TE27-Corolla.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax5{
+    /* L’image du Parallax */
+    background-image: url("https://wallpaperplay.com/walls/full/c/7/b/102262.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
